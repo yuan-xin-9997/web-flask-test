@@ -1,4 +1,4 @@
-FROM ubuntu:18:04
+FROM ubuntu:18.04
 
 MAINTAINER yuan xin <yuanxin9997@qq.com>
 
