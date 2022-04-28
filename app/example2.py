@@ -16,8 +16,9 @@ app = Flask(__name__)
 def hello_world():
     s = """
     <h1>泥豪，世界！</h1>
-    <img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2700654223,2122220372&fm=26&gp=0.jpg">\    
-    <img src=https://pics2.baidu.com/feed/78310a55b319ebc4e313b5d41637d1f61e17162b.jpeg?token=99340ce9b353d872e1ea3335f872aa59>
+    <img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2700654223,2122220372&fm=26&gp=0.jpg"> 
+    <img src="https://pics2.baidu.com/feed/78310a55b319ebc4e313b5d41637d1f61e17162b.jpeg?token=99340ce9b353d872e1ea3335f872aa59">
+    <img src="https://t7.baidu.com/it/u=3676218341,3686214618&fm=193&f=GIF">
     """
     return s
 
