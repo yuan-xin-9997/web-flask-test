@@ -2,10 +2,10 @@ FROM ubuntu:18.04
 
 MAINTAINER yuan xin <yuanxin9997@qq.com>
 
-RUN apt-get update
 # RUN DEBIAN_FRONTEND=noninteractive apt-get install -y -q python3.7 python-pip
 # RUN DEBIAN_FRONTEND=noninteractive apt-get install -y -q python-all python-pip
-RUN apt-get install -y -q python3 python-pip
+RUN apt-get update
+RUN apt-get install -y -q python3 python3-pip
 ADD ./app/requirements.txt /tmp/requirements.txt
 
 RUN pip install -q -r /tmp/requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
