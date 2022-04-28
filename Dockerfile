@@ -9,6 +9,6 @@ ADD ./app/requirements.txt /tmp/requirements.txt
 RUN pip install -q -r /tmp/requirements.txt
 ADD ./app /opt/web-flask-test
 
-WORKDIR /opt/web-flask-test/app
+WORKDIR /opt/web-flask-test
 EXPOSE 8080
-CMD ['python', 'example2.py']
+CMD ['python3', 'example2.py']
