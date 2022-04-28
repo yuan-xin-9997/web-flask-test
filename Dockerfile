@@ -8,7 +8,7 @@ RUN apt-get update
 RUN apt-get install -y -q python3 python-pip
 ADD ./app/requirements.txt /tmp/requirements.txt
 
-RUN pip install -q -r /tmp/requirements.txt
+RUN pip install -q -r /tmp/requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
 ADD ./app /opt/web-flask-test
 
 WORKDIR /opt/web-flask-test
