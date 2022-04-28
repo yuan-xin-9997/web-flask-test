@@ -9,7 +9,7 @@
 from flask import Flask
 
 app = Flask(__name__)
-app.config['DEBUG'] = True  # 开启 debug，每次修改不用手动重启，开启后，可以观察控制台日志。
+# app.config['DEBUG'] = True  # 开启 debug，每次修改不用手动重启，开启后，可以观察控制台日志。
 
 
 @app.route('/')
