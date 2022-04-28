@@ -11,4 +11,4 @@ ADD ./app /opt/web-flask-test
 
 WORKDIR /opt/web-flask-test
 EXPOSE 8080
-CMD ['python3', 'example2.py']
+CMD ["python3", "example2.py"]
